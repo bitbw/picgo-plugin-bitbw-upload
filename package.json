@@ -12,6 +12,7 @@
     "patch": "npm version patch && git push origin master && git push origin --tags",
     "minor": "npm version minor && git push origin master && git push origin --tags",
     "major": "npm version major && git push origin master && git push origin --tags",
+    "publish": "npm publish",
     "preupdate": "git add . ",
     "update": "git commit -m",
     "postupdate": "git pull && git push"
