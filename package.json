@@ -11,7 +11,10 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "patch": "npm version patch && git push origin master && git push origin --tags",
     "minor": "npm version minor && git push origin master && git push origin --tags",
-    "major": "npm version major && git push origin master && git push origin --tags"
+    "major": "npm version major && git push origin master && git push origin --tags",
+    "preupdate": "git add . ",
+    "update": "git commit -m",
+    "postupdate": "git pull && git push"
   },
   "keywords": [
     "picgo",
